@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdala's Calculator</title>
+    <meta name="description" content="Abdala Zaghab first Calculator using a website.">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<!--COMENTARIOS-->
+<body>
+        <h1 class="headers">Abdala Zaghab 1st Project</h1>
+        <h3 class="headers">Calculator with Javascipt</h3>
+
+    <div id="calculator">
+    <input type="text" name="screen" id="screen" readonly> 
+        
+    <div id="keys">
+    
+    <button onclick="clearScreen()" class="graybuttons">AC</button>
+    <button onclick="negativePlusSign()" class="graybuttons" >+\-</button>
+    <button onclick="percentage()" class="graybuttons">%</button>
+    <button onclick="appendNumber('/')" class="operators">/</button>
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="appendNumber('*')"class="operators">x</button>
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="appendNumber('-')" class="operators">-</button>
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="appendNumber('+') "class="operators">+</button>
+    <button onclick="appendNumber('.')">.</button>
+    <button onclick="appendNumber('0')">0</button>
+    <button onclick="deleteNum()">del</button>
+    <button onclick="calculate()"class="operators">=</button>
+
+
+        </div>
+    </div>
+
+    <h6>Thank you for using the Calculator</h6>
+    <script src= "index.js"></script>
+</body>
+</html>

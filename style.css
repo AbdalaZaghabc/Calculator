@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(0, 0%, 65%);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 30px black;
+}
+h3{
+    text-align: center;
+    color: orange;
+    
+}
+h6{
+    text-align: center;
+}
+
+#screen{
+
+width: 440px;
+height: 100px;
+border: none;
+color: white;
+border-radius: 15px;
+text-align: right;
+background-color: hsl(0, 0%, 0%);
+cursor: default;
+font-weight: bold;
+font-size: 5rem;
+
+}
+#calculator {
+
+    width: 450px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: gray 30px 0px 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 100px;
+    border: none;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+    margin: 0.25rem;
+}
+button:hover{
+background-color: hsl(0, 0%, 35%);
+}
+button:active{
+background-color: hsl(0, 0%, 15%);
+}
+
+
+#keys{
+width: auto;
+height: auto;
+    background-color: #000000;
+}
+
+.graybuttons{
+
+background-color: hsl(0, 0%, 50%);
+color: black;
+}
+
+.graybuttons:hover{
+    background-color: hsl(0, 0%, 755%);
+    }
+.graybuttons:active{
+    background-color: hsl(0, 0%, 65%);
+    }
+
+.operators{
+    background-color: hsl(39, 100%, 50%);
+}
+
+.operators:hover{
+    background-color: hsl(39, 100%, 75%);
+    }
+    .operators:active{
+    background-color: hsl(39, 100%, 60%);
+    }
