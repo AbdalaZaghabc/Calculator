@@ -40,7 +40,6 @@ function calculate(){
             displayCalc.value = result;
         }
         
-        
     }
     catch {
         displayCalc.value= "Error";
