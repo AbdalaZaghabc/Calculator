@@ -1,8 +1,7 @@
 body{
-     display: flex;
+    display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 65%);
-    color: black;
 }
 h1{
     text-align: center;
@@ -19,9 +18,8 @@ h6{
 }
 
 #screen{
-
-width: 440px;
-height: 100px;
+width: 100%;
+height: auto;
 border: none;
 color: white;
 border-radius: 15px;
@@ -34,10 +32,10 @@ font-size: 5rem;
 }
 #calculator {
 
-    width: 450px;
-    height: 650px;
+    width: 260px;
+    height: auto;
     background-color: rgb(0, 0, 0);
-    padding: 12px;
+    padding: 10px;
    margin: auto;
    border-radius: 20px;
    box-shadow: gray 30px 0px 25px;
@@ -65,8 +63,10 @@ background-color: hsl(0, 0%, 15%);
 
 
 #keys{
-width: auto;
-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     background-color: #000000;
 }
 
