@@ -36,7 +36,7 @@ function calculate(){
             displayCalc.value = result;
             }
         else{
-            result= result.toFixed(5);
+            result= result.toFixed(2);
             displayCalc.value = result;
         }
         
