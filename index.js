@@ -9,13 +9,6 @@ function appendNumber(input){
 
     displayCalc.value += input;
 }
-
-// Clear
-function deleteNum(){
-
-    displayCalc.value = displayCalc.value.slice(0,-1);
-}
-
 //Clears the screen
 function clearScreen(){
     
